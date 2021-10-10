@@ -4,8 +4,10 @@ A tool to track important moments with exact date time information and attached 
 All events, moments etc. can be created in a timeline and can be tagged. Later it can be extended to a social platform where people share moments to answer “What happened?” with evidence documents.
 
 Project was developed with spring boot and  MongoDB is preferred for data persistency (working live no change needed). Also it has been dockerized.
+
 For endpoints presentation [Swagger UI](https://swagger.io/tools/swagger-ui/) has been preferred. While project runtime, you could access it from the ip address of the port you use. 
-You can also check [Api-Docs](https://github.com/murtekbey/pribas-task/api-docs.json)
+
+You can also check [Api-Docs](https://raw.githubusercontent.com/murtekbey/pribas-task/main/api-docs.json)
 
 ### Project's Dependencies
 
