@@ -9,6 +9,8 @@ For endpoints presentation [Swagger UI](https://swagger.io/tools/swagger-ui/) ha
 
 You can also check [Api-Docs](https://raw.githubusercontent.com/murtekbey/pribas-task/main/api-docs.json)
 
+[![](https://raw.githubusercontent.com/murtekbey/pribas-task/main/ui.png)](https://raw.githubusercontent.com/murtekbey/pribas-task/main/ui.png)
+
 ### Project's Dependencies
 
 * [Official Apache Maven documentation](https://maven.apache.org/guides/index.html)
@@ -28,4 +30,3 @@ You can also check [Api-Docs](https://raw.githubusercontent.com/murtekbey/pribas
 * [Core](https://github.com/murtekbey/pribas-task/tree/main/src/main/java/pribas/task/core)
 * [DataAccess](https://github.com/murtekbey/pribas-task/tree/main/src/main/java/pribas/task/dataAccess)
 * [Entities](https://github.com/murtekbey/pribas-task/tree/main/src/main/java/pribas/task/entities)
-
