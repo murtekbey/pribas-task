@@ -50,7 +50,7 @@ public class TimelinesController {
 	}
 	
 	@PostMapping("/delete")
-	public Result delete(@Valid @RequestBody Timeline timeline) {
+	public Result delete(@RequestBody Timeline timeline) {
 		return this.timelineService.delete(timeline);
 	}
 	
@@ -65,17 +65,17 @@ public class TimelinesController {
 	}
 	
 	@GetMapping("/getByTitle")
-	public DataResult<Timeline> getByTitle(@Valid @RequestParam String title) {
+	public DataResult<Timeline> getByTitle(@RequestParam String title) {
 		return this.timelineService.getByTitle(title);
 	}
 	
 	@GetMapping("/getByMomentsIn")
-	public DataResult<List<Timeline>> getByMomentsIn(@Valid @RequestParam("momentId") List<String> moments) {
+	public DataResult<List<Timeline>> getByMomentsIn(@RequestParam("momentId") List<String> moments) {
 		return this.timelineService.getByMomentsIn(moments);
 	}
 	
 	@GetMapping("/getByTagsIn")
-	public DataResult<List<Timeline>> getByTagsIn(@Valid @RequestParam List<String> tags) {
+	public DataResult<List<Timeline>> getByTagsIn(@RequestParam List<String> tags) {
 		return this.timelineService.getByTagsIn(tags);
 	}
 	
